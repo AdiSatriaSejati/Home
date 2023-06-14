@@ -49,6 +49,7 @@ html,
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .nama {
@@ -5253,7 +5254,7 @@ mark:before {
 @media only screen and (max-width: 600px) {
     .person {
         position: absolute;
-        left: -80px;
+        left: -85px;
         top: -50px;
         margin-top: -30px;
         margin-left: -10px;
@@ -5294,7 +5295,8 @@ mark:before {
 
     .small {
         position: relative;
-        bottom: 100px;
+        bottom: 120px;
+        font-size: 10px;
     }
 
 }
