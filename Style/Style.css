@@ -5265,16 +5265,20 @@ mark:before {
     }
 
     .p {
-        position: relative;
+        position: absolute;
         font-size: 10px;
     }
 
-    .color-red, .color-green, .color-yellow {
-        top: 20px;
+    .color-red,
+    .color-green,
+    .color-yellow {
+        position: absolute;
+        top: 50px;
     }
 
-    .small,.alt {
-        position: relative;
+    .small,
+    .alt {
+        position: absolute;
         font-size: 10px;
         bottom: 150px;
     }
