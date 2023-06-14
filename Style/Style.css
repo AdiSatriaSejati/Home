@@ -48,7 +48,6 @@
 html,
 body {
     height: 100%;
-    overflow: hidden;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -69,6 +68,7 @@ body {
     height: 100%;
     min-height: 500px;
 }
+
 
 
 .wrapper .container {
@@ -533,13 +533,14 @@ mark:before {
     transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 600px) {
 
     .template main h1>*,
     .template main .h1>* {
-        height: 37.8px;
-        line-height: 37.8px;
-        font-size: 28.799999999999997px;
+        height: 47.8px;
+        line-height: 47.8px;
+        letter-spacing: 5px;
+        font-size: 17px;
     }
 }
 
@@ -4774,7 +4775,7 @@ mark:before {
     width: 168px;
 }
 
-@media (max-width: 669px) {
+@media (max-width: 600px) {
     .template[data-template=bucketAll] ul.blocks li span {
         display: inline;
         white-space: normal;
@@ -4820,7 +4821,7 @@ mark:before {
     text-decoration: line-through;
 }
 
-@media (max-width: 669px) {
+@media (max-width: 600px) {
     .template[data-template=bucketAll] ul.blocks li.archived {
         padding-left: 42px;
     }
@@ -5249,6 +5250,50 @@ mark:before {
     height: 320px;
 }
 
+@media only screen and (max-width: 600px) {
+    .person {
+        position: absolute;
+        left: -70px;
+        top: -50px;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+
+    .nama {
+        font-size: 26px;
+        margin-top: 160px;
+    }
+
+    .wrapper {
+        margin-top: 100px;
+        margin-left: -5px;
+    }
+
+    .paan {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .m {
+        font-size: 17px;
+        letter-spacing: 5px;
+    }
+
+    .p {
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
+    }
+
+    .links {
+        position: relative;
+        display: list-item;
+        font-size: 10px;
+        bottom: 55px;
+    }
+
+}
+
 .kontainer {
     border-radius: 50%;
     height: 312px;
@@ -5340,20 +5385,9 @@ mark:before {
     font-size: 40px;
 }
 
-@media (min-width: 800px) {
 
-    .judul {
-        font-size: 38px;
-    }
-}
 
-@media screen only (min-width: 360px) {
 
-    .judul {
-        font-size: 8vw;
-    }
-
-}
 
 .loader .m {
     color: #419d78;
