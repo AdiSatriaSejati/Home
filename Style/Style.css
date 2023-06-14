@@ -5266,21 +5266,17 @@ mark:before {
 
     .p {
         position: relative;
-        bottom: 50px;
         font-size: 10px;
     }
 
-    .color-red,
-    .color-green,
-    .color-yellow {
-        top: 30px;
+    .color-red, .color-green, .color-yellow {
+        top: 20px;
     }
 
-    .small,
-    .alt {
+    .small,.alt {
         position: relative;
         font-size: 10px;
-        bottom: 140px;
+        bottom: 150px;
     }
 
 
