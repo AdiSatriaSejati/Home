@@ -5291,9 +5291,10 @@ mark:before {
         font-size: 10px;
         bottom: 55px;
     }
-    .small{
+
+    .small {
         position: relative;
-        bottom: 30px;
+        bottom: 100px;
     }
 
 }
