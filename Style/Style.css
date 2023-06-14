@@ -195,7 +195,6 @@ a.link.small:hover:before {
 
     .links a.link:not(.small):not(:last-child) {
         margin-right: 0;
-        margin-bottom: 14px;
     }
 
     .links a.link:not(.small):hover:before {
@@ -5270,6 +5269,7 @@ mark:before {
         bottom: 50px;
         font-size: 10px;
     }
+
 
     .link.small.alt {
         position: relative;
