@@ -5271,6 +5271,12 @@ mark:before {
         font-size: 10px;
     }
 
+    .link.small.alt {
+        position: relative;
+        font-size: 10px;
+        bottom: 100px;
+    }
+
 
 }
 
