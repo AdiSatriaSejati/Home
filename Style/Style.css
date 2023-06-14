@@ -5253,7 +5253,7 @@ mark:before {
 @media only screen and (max-width: 600px) {
     .person {
         position: absolute;
-        left: -70px;
+        left: -80px;
         top: -50px;
         margin-top: -30px;
         margin-left: -10px;
@@ -5290,6 +5290,10 @@ mark:before {
         display: list-item;
         font-size: 10px;
         bottom: 55px;
+    }
+    .small{
+        position: relative;
+        bottom: 30px;
     }
 
 }
