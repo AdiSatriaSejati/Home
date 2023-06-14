@@ -5255,7 +5255,7 @@ mark:before {
 
     .paan {
         position: relative;
-        bottom: 50px;
+        bottom: 10px;
     }
 
     .m {
@@ -5266,6 +5266,7 @@ mark:before {
     .p {
         position: absolute;
         font-size: 10px;
+        top: 200px;
     }
 
     .color-red,
@@ -5279,7 +5280,7 @@ mark:before {
     .alt {
         position: absolute;
         font-size: 10px;
-        bottom: 140px;
+        bottom: 130px;
     }
 
 
