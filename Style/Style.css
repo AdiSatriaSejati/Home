@@ -5250,13 +5250,14 @@ mark:before {
     }
 
     .wrapper {
+        position: relative;
         margin-top: 90px;
         margin-left: -5px;
     }
 
     .paan {
         position: relative;
-        bottom: 40px;
+        bottom: 50px;
     }
 
     .m {
