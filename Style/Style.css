@@ -5273,14 +5273,14 @@ mark:before {
     .color-green,
     .color-yellow {
         position: absolute;
-        top: 50px;
+        top: 70px;
     }
 
     .small,
     .alt {
         position: absolute;
         font-size: 10px;
-        bottom: 150px;
+        bottom: 140px;
     }
 
 
