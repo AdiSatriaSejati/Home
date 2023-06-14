@@ -5270,14 +5270,17 @@ mark:before {
         font-size: 10px;
     }
 
-    .color-red, .color-green, .color-yellow {
-        top: 20px;
+    .color-red,
+    .color-green,
+    .color-yellow {
+        top: 30px;
     }
 
-    .small,.alt {
+    .small,
+    .alt {
         position: relative;
         font-size: 10px;
-        bottom: 150px;
+        bottom: 140px;
     }
 
 
