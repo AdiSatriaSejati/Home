@@ -188,7 +188,7 @@ a.link.small:hover:before {
     margin-right: 35px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 600px) {
     .links a.link:not(.small) {
         display: block;
     }
@@ -4776,21 +4776,6 @@ mark:before {
     width: 168px;
 }
 
-@media (max-width: 600px) {
-    .template[data-template=bucketAll] ul.blocks li span {
-        display: inline;
-        white-space: normal;
-    }
-
-    .template[data-template=bucketAll] ul.blocks li span:nth-child(1) {
-        width: auto;
-    }
-
-    .template[data-template=bucketAll] ul.blocks li span:nth-child(1):after {
-        content: ' ';
-    }
-}
-
 .template[data-template=bucketAll] ul.blocks li span,
 .template[data-template=bucketAll] ul.blocks li svg {
     -webkit-transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
@@ -5286,18 +5271,6 @@ mark:before {
         font-size: 10px;
     }
 
-    .links {
-        position: relative;
-        display: flex;
-        font-size: 10px;
-        bottom: 55px;
-    }
-
-    .small {
-        position: relative;
-        bottom: 90px;
-        font-size: 10px;
-    }
 
 }
 
