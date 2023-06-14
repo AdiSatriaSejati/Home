@@ -5254,8 +5254,8 @@ mark:before {
     }
 
     .paan {
-        position: relative;
-        bottom: 10px;
+        position: absolute;
+        bottom: 50px;
     }
 
     .m {
