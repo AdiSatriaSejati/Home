@@ -5266,7 +5266,7 @@ mark:before {
     }
 
     .wrapper {
-        margin-top: 100px;
+        margin-top: 90px;
         margin-left: -5px;
     }
 
@@ -5288,14 +5288,14 @@ mark:before {
 
     .links {
         position: relative;
-        display: list-item;
+        display: flex;
         font-size: 10px;
         bottom: 55px;
     }
 
     .small {
         position: relative;
-        bottom: 120px;
+        bottom: 110px;
         font-size: 10px;
     }
 
