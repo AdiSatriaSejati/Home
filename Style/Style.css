@@ -5262,6 +5262,13 @@ mark:before {
         bottom: 40px;
     }
 
+
+
+    .m {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
     .p,
     span {
         position: relative;
@@ -5270,15 +5277,11 @@ mark:before {
         padding-top: 50px;
     }
 
-    .m {
-        font-size: 20px;
-        letter-spacing: 5px;
-    }
-
+ 
     .link.small.alt {
         position: relative;
-        font-size: 10px;
-        bottom: 150px;
+        width: auto;
+        padding-bottom: 150px;
     }
 }
 
