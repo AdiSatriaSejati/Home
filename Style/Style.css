@@ -5236,18 +5236,20 @@ mark:before {
     height: 320px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
+    body {
+        overflow: hidden;
+    }
+
     .person {
         position: absolute;
-        left: -85px;
-        top: -50px;
-        margin-top: -30px;
-        margin-left: -10px;
+        left: -100px;
+        top: -60px;
     }
 
     .nama {
         font-size: 26px;
-        margin-top: 160px;
+        margin-top: 200px;
     }
 
     .wrapper {
