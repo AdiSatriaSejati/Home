@@ -537,6 +537,8 @@ mark:before {
 
     .template main h1>*,
     .template main .h1>* {
+        position: relative;
+        top: 100px;
         height: 47.8px;
         line-height: 47.8px;
         letter-spacing: 5px;
@@ -5255,7 +5257,7 @@ mark:before {
 
     .paan {
         position: absolute;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .m {
@@ -5263,12 +5265,7 @@ mark:before {
         letter-spacing: 5px;
     }
 
-    .p {
-        position: absolute;
-        font-size: 10px;
-        top: 200px;
-    }
-
+    .p,
     .color-red,
     .color-green,
     .color-yellow {
