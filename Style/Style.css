@@ -5274,7 +5274,7 @@ mark:before {
         position: relative;
         width: auto;
         height: auto;
-        padding-top: 5px;
+        margin-top: -5px;
     }
 
 
