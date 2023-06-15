@@ -195,6 +195,7 @@ a.link.small:hover:before {
 
     .links a.link:not(.small):not(:last-child) {
         margin-right: 0;
+        margin-bottom: 14px;
     }
 
     .links a.link:not(.small):hover:before {
@@ -537,8 +538,6 @@ mark:before {
 
     .template main h1>*,
     .template main .h1>* {
-        position: relative;
-        top: 100px;
         height: 47.8px;
         line-height: 47.8px;
         letter-spacing: 5px;
@@ -5252,12 +5251,13 @@ mark:before {
     }
 
     .wrapper {
-        position: relative;
+        margin-top: 90px;
+        margin-left: -5px;
     }
 
     .paan {
-        position: absolute;
-        margin-top: 5px;
+        position: relative;
+        bottom: 40px;
     }
 
     .m {
@@ -5265,19 +5265,16 @@ mark:before {
         letter-spacing: 5px;
     }
 
-    .p,
-    .color-red,
-    .color-green,
-    .color-yellow {
-        position: absolute;
-        top: 80px;
+    .p {
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
     }
 
-    .small,
-    .alt {
-        position: absolute;
+    .link.small.alt {
+        position: relative;
         font-size: 10px;
-        bottom: 130px;
+        bottom: 150px;
     }
 
 
