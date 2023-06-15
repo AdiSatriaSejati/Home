@@ -5262,7 +5262,8 @@ mark:before {
         bottom: 40px;
     }
 
-    .p {
+    .p,
+    span {
         position: relative;
         width: auto;
         height: auto;
