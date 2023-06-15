@@ -5259,18 +5259,13 @@ mark:before {
 
     .paan {
         position: relative;
+
         bottom: 40px;
     }
 
     .m {
-        font-size: 17px;
+        font-size: 20px;
         letter-spacing: 5px;
-    }
-
-    .p {
-        position: relative;
-        bottom: 50px;
-        font-size: 10px;
     }
 
     .link.small.alt {
@@ -5278,8 +5273,6 @@ mark:before {
         font-size: 10px;
         bottom: 150px;
     }
-
-
 }
 
 .kontainer {
