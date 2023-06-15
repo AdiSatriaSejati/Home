@@ -5257,10 +5257,11 @@ mark:before {
         margin-left: -5px;
     }
 
-    .judul{
+    .judul {
         position: relative;
         font-size: 10px;
     }
+
     .paan {
         position: relative;
         bottom: 40px;
@@ -5276,7 +5277,7 @@ mark:before {
     .p {
         position: relative;
         width: auto;
-        margin-top: -35px;
+        margin-top: -15px;
     }
 
 
