@@ -4,14 +4,14 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [{
+    title: "Database Systems",
+    cardImage: "assets/images/education-page/preinexus.jpeg",
+    moocLink: "http://ubsi.preinexus.id/",
+  },
+  {
     title: "Data Science",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink: "https://www.coursera.org/browse/data-science",
-  },
-  {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
   },
   {
     title: "Machine Learning",
@@ -64,24 +64,6 @@ const moocscards = [{
     moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
 ];
-
-const experience = [{
-    img: "assets/images/education-page/c1.png",
-  },
-  {
-    img: "assets/images/education-page/c2.jpg",
-  },
-  {
-    img: "assets/images/education-page/c3.png",
-  },
-  {
-    img: "assets/images/education-page/c4.png",
-  },
-  {
-    img: "assets/images/education-page/c5.jpg",
-  },
-];
-
 let currentItem = 0;
 
 const img = document.getElementById("image");
@@ -132,27 +114,6 @@ const showCards = () => {
   moocs.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards);
-
-/* Badges*/
-
-const bagdes = document.querySelector(".badges");
-const badgesection = [{
-    title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
-    description: "Earned May 20, 2020",
-  },
-  {
-    title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
-    description: "Earned June 20, 2020",
-  },
-  {
-    title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
-    description: "Earned July 20, 2020",
-  },
-];
-
 const showCards1 = () => {
   let output = "";
   badgesection.forEach(
